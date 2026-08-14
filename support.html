@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark" />
-    <title>Terms of Use — Godwake</title>
+    <title>Support — Godwake</title>
     <style>
       :root {
         --bg: #04100e;
@@ -12,6 +12,7 @@
         --ink-soft: #c9c0b0;
         --ink-faint: #8a8378;
         --accent: #d4a574;
+        --accent-ink: #04100e;
         --rule: rgba(242, 235, 224, 0.12);
       }
 
@@ -65,7 +66,37 @@
         margin: 0 0 0.85rem;
       }
 
-      a {
+      .lang {
+        font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--ink-faint);
+        margin: 1.75rem 0 0.4rem;
+      }
+
+      .write {
+        display: inline-block;
+        margin: 0.5rem 0 1.25rem;
+        padding: 0.85rem 1.35rem;
+        border-radius: 999px;
+        background: var(--accent);
+        color: var(--accent-ink);
+        font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+        font-size: 0.95rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      nav {
+        margin-top: 2rem;
+        font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+        font-size: 0.9rem;
+      }
+
+      nav a {
         color: var(--accent);
       }
 
@@ -82,34 +113,30 @@
   <body>
     <main>
       <p class="brand">Godwake</p>
-      <h1>Terms of Use</h1>
-      <p class="updated">Last updated: 14 August 2026</p>
+      <h1>Support</h1>
+      <p class="updated">You do not need the app installed to write to us.</p>
 
+      <p class="lang">English</p>
       <p>
-        Godwake is a local morning alarm. It runs on your phone. There is no account and no
-        sign-in.
+        Godwake is a local-first Christian morning alarm. For help with the app, store listing, or
+        this site, write to support. Your mail app opens — the address is not shown on this page.
       </p>
-      <p>
-        You set an alarm. When it rings, you complete a short morning — a verse, or a blessing when
-        scripture for that language is not included. You may optionally type a morning gratitude
-        note. That note stays on this phone.
-      </p>
-      <p>This version does not sell subscriptions or in-app purchases.</p>
-      <p>
-        The alarm cannot stop you from turning the phone off. Exact timing depends on the system
-        permissions you grant.
-      </p>
-      <p>
-        For help, use the <a href="./support.html">public Support page</a>. You do not need the app
-        installed.
-      </p>
+      <a class="write" href="mailto:ceo@nova-app.co?subject=Godwake%20support">Write to support</a>
 
-      <footer>
-        Godwake — local-first Christian morning alarm ·
-        <a href="./support.html">Support</a>
-        ·
+      <p class="lang">Slovenčina</p>
+      <p>
+        Godwake je lokálny kresťanský ranný budík. S otázkou o aplikácii, obchode alebo tejto
+        stránke napíš na podporu. Otvorí sa tvoj e-mail — adresa na tejto stránke nie je zobrazená.
+      </p>
+      <a class="write" href="mailto:ceo@nova-app.co?subject=Godwake%20support">Napísať na podporu</a>
+
+      <nav>
         <a href="./">Privacy</a>
-      </footer>
+        ·
+        <a href="./terms.html">Terms</a>
+      </nav>
+
+      <footer>Godwake — local-first Christian morning alarm</footer>
     </main>
   </body>
 </html>
