@@ -1,3 +1,4 @@
-Public privacy policy for [Godwake](https://github.com/marek650/godwake).
+Public privacy policy and terms of use for [Godwake](https://github.com/marek650/godwake).
 
-Live page: https://marek650.github.io/godwake-privacy/
+- Privacy: https://marek650.github.io/godwake-privacy/
+- Terms: https://marek650.github.io/godwake-privacy/terms.html
